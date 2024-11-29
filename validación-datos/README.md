@@ -54,12 +54,20 @@ Este proyecto utiliza **Kraken** para realizar pruebas automatizadas en la aplic
    Abrir el archivos properties.json y cambiar las credenciales: url, username y password según haya configurado el ambiente.
 
    Para ejecutar las pruebas con Kraken, utiliza el siguiente comando en tu terminal gitbash:
-  ```bash
+     ```bash
    ./node_modules/kraken-node/bin/kraken-node run
    ```
+
+    Ubicación de escenarios y estrategia:
+
+   ![image](https://github.com/user-attachments/assets/da819e84-052f-433b-a14a-dd930a73a116)
+
+   En la carpeta "feacture" se encuentran las carpetas de estrategias de data pool dinamicos y aleatorios ejecutados con kraken.
 
    Ejecutar los escenarios de forma individual de la siguiente manera: 
 
    ```bash
    ./node_modules/kraken-node/bin/kraken-node run EP-001-Crear-Cuenta.feature --properties=properties.json
    ```
+  
+
