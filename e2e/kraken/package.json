@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "kraken-node": "^1.0.24",
+    "node-fetch": "^2.7.0"
+  }
+}
