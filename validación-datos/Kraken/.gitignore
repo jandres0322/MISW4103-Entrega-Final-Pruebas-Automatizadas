@@ -1,0 +1,9 @@
+node_modules/
+**/node_modules/
+**/reports/
+/cypress-ghost/node_modules
+**/.kraken/
+**/backstop.json
+
+
+/cypress-ghost/cypress/screenshots
