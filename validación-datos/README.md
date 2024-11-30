@@ -35,17 +35,25 @@ Este proyecto utiliza **Kraken** para realizar pruebas automatizadas en la aplic
    cd kraken
    ```
 
-   Una vez dentro del proyecto, instala todas las dependencias necesarias:
+   Abrir la carpeta vrt/kraken_tests/kraken_project con el IDE de su gusto. Esta será nuestra carpeta raiz de ahora en adelante
+   
+   Ejecutar en la raíz del proyecto:
+   ```bash
+   npm install kraken-node
+   ```
+   En caso de tener problemas appium, instalarlo globalmente con el siguiente comando:
 
    ```bash
-   npm install
+   npm install -g appium
    ```
+   Una vez dentro del proyecto, instala todas las dependencias necesarias:
+
 
    Asegúrate de que Ghost esté corriendo en http://localhost:2368/ghost/ antes de ejecutar las pruebas.
    ```bash
    http://localhost:2368/ghost/
    ```
-2. **Configuración de Ejecución**
+3. **Configuración de Ejecución**
    
    Abre el archivo properties.json y cambia las credenciales: url, username, y password según tu configuración de ambiente.
    
