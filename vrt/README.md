@@ -30,12 +30,12 @@ Este proyecto utiliza **Kraken** para realizar pruebas automatizadas en la aplic
    Clona este repositorio en tu máquina local usando Git:
 
    ```bash
-   git clone https://github.com/jandres0322/MISW-4103-Pruebas-Automatizadas-Grupo-10.git
+   git clone https://github.com/jandres0322/MISW4103-Entrega-Final-Pruebas-Automatizadas-Grupo-10.git
    cd MISW-4103-Pruebas-Automatizadas-Grupo-10
    cd kraken
    ```
 
-   Abrir la carpeta vrt/kraken_tests/kraken_project con el IDE de su gusto. Esta será nuestra carpeta raiz de ahora en adelante
+   Abrir la carpeta vrt/kraken/ con el IDE de su gusto. Esta será nuestra carpeta raiz de ahora en adelante
    
    Ejecutar en la raíz del proyecto:
    ```bash
