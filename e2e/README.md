@@ -77,3 +77,49 @@ Este proyecto utiliza **Kraken** para realizar pruebas automatizadas en la aplic
 
 Los escenarios E2E se alojan en la carpeta *feacturesEjecutados*, los cuales se pueden pasar manaulmente a la carpeta feature para poder ejecutarlos.
    ![image](https://github.com/user-attachments/assets/55cacac5-21dd-4b2d-8bd7-1a66e64dabd5)
+
+
+
+## Cypress
+
+Cypress es una herramienta de automatización de pruebas de interfaz para pruebas de regresión de aplicaciones web . Cypress se ejecuta en Windows , Linux y macOS . La aplicación Cypress es un software de código abierto publicado bajo la licencia MIT 
+
+## Aplicación Objetivo de pruebas
+
+![image](https://github.com/user-attachments/assets/22173b28-de89-491a-8887-5c8d2b3fa9db)
+
+## Pasos para poder ejecutar los escenarios de pruebas con la herramienta Cypress
+
+### Preparación del ambiente
+
+Clonar el repositorio
+
+```bash
+  git clone https://github.com/jandres0322/MISW-4103-Pruebas-Automatizadas-Grupo-10
+  cd MISW-4103-Pruebas-Automatizadas-Grupo-10
+```
+
+Ir a la carpeta ```cypress```
+``` bash
+    cd cypress
+```
+
+Ejecutar las dependencias
+```
+    npm i
+```
+
+Para ejecutar el ambiente de Cypress puede usar el siguiente comando:
+``` 
+    npm run cypress:open
+```
+
+
+### Ejecución de pruebas
+
+1. Correr Ghost localmente
+
+2. Es importante saber que no se debe tener cuenta creada, ya que las pruebas hacen la creación automática de esta con los parametros que se encuentran en los scripts de cada uno de los escenariso de prueba. En caso de tener una cuenta anteriormente creada, es necesario borrar la base de datos del ghost de la siguiente forma:
+
+3. Situarse en el directorio de la aplicación ghost ejecutar el comando rm -f content/data/ghost-local.db
+
